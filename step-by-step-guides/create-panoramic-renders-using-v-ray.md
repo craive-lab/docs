@@ -1,0 +1,50 @@
+---
+description: >-
+  This section provides an overview about how to make your visual rendering
+  created from V-Ray display correctly at the CRAIVE-Lab.
+---
+
+# Create panoramic renders using V-Ray
+
+**Good news! It is very easy.** On top of that, you can use it for any 3D modeling tools that V-Ray can interface with. This means that not only can you use it for Rhino, but also Maya, 3Ds Max, Revit, SketchUp, Houdini, and even Unreal Engine!&#x20;
+
+### Step 1
+
+Position the point of view (PoV) within model space and set the view orientation.&#x20;
+
+### Step 2
+
+<figure><img src="../.gitbook/assets/v-ray (1).png" alt=""><figcaption><p>V-ray asset editor setting for spherical panoramic image capture.</p></figcaption></figure>
+
+In V-Ray for Rhino, go to V-Ray **Asset Editor** (first icon on the left). Under **Settings**, set Camera Type to **VR Spherical Camera**. Then adjust the Image Width/Height to **11636 x 5818** (see image above).&#x20;
+
+### Step 3
+
+Go ahead and render away! Don't forget to save your renders.
+
+{% hint style="success" %}
+**Pro Tip!**&#x20;
+
+Since the CRAIVE-Lab can only display a portion of the spherical view, you can make your rendering even faster by using **Region Render** under **V-Ray's Frame Buffer (VFB)**.&#x20;
+
+Just crop out the areas that you want to render (taking full width into account), and you can save yourself up to 50% of total rendering time! The procedure of such cropping is similar to that introduced in [Display panorama from spherical cameras](display-panorama-from-spherical-cameras.md).
+{% endhint %}
+
+{% hint style="info" %}
+**My computer cannot handle rendering such a large image. What should I do?**
+
+The settings indicated in the V-ray screenshot above are one of the highest-quality settings possible. If your computing power is limited, you can try the following:
+
+* **Try another rendering engine**: some machines supports RTX renders, while others support CUDA. If your computer has an Nvidia GPU, you can choose CUDA as your default rendering engine;
+* **Lower your render quality**: you can set the rendering to medium to high for a less computationally expensive render. As a good workflow, start rendering from a lower quality and work your way up. It is not recommended to go lower than a medium quality render;
+* **Rendering by sub-regions**: instead of rendering the entire image all at once, split it into regions and render them one by one. The pro-tip described above also helps.
+
+It is not recommended to change the image width and height in your render output. You should do so only if all the above approaches fail. And, to avoid aliasing effects, you should take extra care about your downsized resolution being an integer dividend of the original resolution.
+{% endhint %}
+
+{% hint style="warning" %}
+**Rendering using Chaos Cloud**
+
+At the moment, Chaos Cloud is not recommended for production at the CRAIVE-Lab.&#x20;
+{% endhint %}
+
