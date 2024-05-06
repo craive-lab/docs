@@ -30,7 +30,7 @@ This documentation is created based upon a [spatially-aware group interaction de
 
 * We used a spatially-aware group interaction design framework to facilitate our design of the interactive platform for the CRAIVE-Lab (Huang et al., 2023);
 * We developed our collaborative multi-user application at the CRAIVE-Lab by adopting a design strategy based upon the hardware-specific design modalities provided in Huang et al. (2023);
-* The artwork created at the CRAIVE-Lab adopts elements of the facility's topological distinctions (Huang et al., 2023) for a mediated relationship between its content and the immersed collective;
+* The artwork created at the CRAIVE-Lab adopts elements of the facility's topological distinctions specified in the group interaction design framework (Huang et al., 2023) for a mediated relationship between its content and the immersed collective;
 * For our study of auditory spatial perception, we adopted a spatially-aware group interaction design framework (Huang et al., 2023) for experimental design at the CRAIVE-Lab.
 {% endhint %}
 
