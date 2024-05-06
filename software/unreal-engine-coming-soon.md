@@ -4,12 +4,12 @@ description: >-
   CRAIVE-Lab.
 ---
 
-# Unreal Engine (Coming Mar 2024)
+# Unreal Engine (coming soon)
 
 {% hint style="warning" %}
 **We have an update!**
 
-Our researchers are currently developing the special assets package for Unreal Engine. We expect the first version of this package to come out on GitHub at some point in March 2024.&#x20;
+Our researchers are currently developing the special assets package for Unreal Engine. We expect the first version of this package to come out on GitHub at some point this summer!
 
 In the meantime, please check this page for updates related to production in Unreal Engine.
 {% endhint %}
