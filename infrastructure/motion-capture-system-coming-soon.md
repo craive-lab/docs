@@ -4,7 +4,7 @@ description: >-
   featuring the 8-channel Azure Kinect array.
 ---
 
-# 🔒 Motion Capture System (coming Summer 2024)
+# 🔒 Motion Sensors (coming soon)
 
 {% hint style="danger" %}
 **WIP!**

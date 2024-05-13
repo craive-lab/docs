@@ -4,7 +4,7 @@ description: >-
   system.
 ---
 
-# Auditory Display System
+# Speaker Array
 
 ## Basic Facts
 

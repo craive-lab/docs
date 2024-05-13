@@ -5,12 +5,12 @@ description: >-
   CRAIVE-Lab for extended interactions.
 ---
 
-# Extended Interactive Devices
+# Interactive Hardware
 
 ## Dashboard
 
 {% hint style="warning" %}
-Upgrade under development. Coming Fall 2023.
+Upgrade under development. Coming Fall 2024.
 {% endhint %}
 
 For research purpose only, the Dashboard (previously Control Center) is open-source partially open and available upon request. We encourage PhD students to contribute to its development, and we welcome suggestions from all students about new hardware features they would like to see!

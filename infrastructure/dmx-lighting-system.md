@@ -4,7 +4,7 @@ description: >-
   system.
 ---
 
-# DMX Lighting System
+# DMX Lights
 
 ## Basic Facts
 

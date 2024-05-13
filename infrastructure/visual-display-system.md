@@ -21,7 +21,7 @@ Production resolution is the resolution without distortions on a standard comput
 
 Display resolution is the resolution that is undistorted on the CRAIVE-Lab's panoramic display. It looks stretched on a standard computer monitor.
 
-See [Panoramas](panoramic-display.md#panoramas) and [Display panoramas from spherical cameras](../examples/4.-display-panorama-from-spherical-camera.md) for more detail.
+See [Panoramas](visual-display-system.md#panoramas) and [Display panoramas from spherical cameras](../examples/5.-display-panorama-from-spherical-camera.md) for more detail.
 {% endhint %}
 
 ## Pixel-Perfect Dimensional Marker of Visual Display
@@ -52,7 +52,7 @@ The simplest workflow is to use a canvas size of `11636 x 1200`, lay out your co
 
 ### Rendering 3D Assets
 
-See [Create panoramic renders using V-Ray](../examples/5.-rendering-panorama.md) for more detail.
+See [Create panoramic renders using V-Ray](../examples/6.-rendering-panorama.md) for more detail.
 
 ## Field of View
 
